@@ -23,6 +23,18 @@ public static void printArray(int[] iarray) {
     ia[5] = -8;
     ia[6] = -4;
     ia[7] = -8;
+    
+System.out.println("Array unsorted\n");
+      for (i = 0; i <=11; i++){
+      System.out.println(ia[i]+" ");
+      }
+      System.out.println("\nArray unsorted\n");
+      Arrays.sort(ia);
+      for (i= 0; i <=11; i++){
+      System.out.println();
+      }
+      
+  }        
 
   
   
