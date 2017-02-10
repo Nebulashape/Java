@@ -29,14 +29,17 @@ var doSearch = function(array, targetValue) {
 			// main (this is where functions get called)
 			
 			var values = [100,400,200,1000,4,2,3,4,1];
+				console.log("Before Sort");
+				console.log(values);
 						values.sort(function(a, b){return a-b});
 
 			//values.sort();
-
-			var results = doSearch(primes, thePrime);
-			console.log("Found prime " +thePrime+" at index " + results);
+			console.log("After Sort");
 			console.log(values);
-			console.log(values); 
+			var searchValue =22;
+			var results = doSearch(values,searchValue);
+			console.log("Found value " +searchValue+ " at index " + results);
+			
 			
 	
 
